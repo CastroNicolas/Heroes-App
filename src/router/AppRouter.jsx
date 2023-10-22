@@ -5,8 +5,6 @@ import { LoginPage } from '../auth';
 import { PrivateRoute } from './PrivateRoute';
 import { PublicRoute } from './PublicRoute';
 
-
-
 export const AppRouter = () => {
   return (
     <>
