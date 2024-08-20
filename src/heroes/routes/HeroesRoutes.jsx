@@ -10,7 +10,7 @@ export const HeroesRoutes = () => {
 
       <div className="container">
         <Routes>
-          <Route path="/" element={<HeroesPage />} />
+          <Route path="/Heroes" element={<HeroesPage />} />
           <Route path="marvel" element={<MarvelPage />} />
           <Route path="dc" element={<DcPage />} />
 
@@ -18,7 +18,7 @@ export const HeroesRoutes = () => {
           <Route path="hero/:id" element={<HeroPage />} />
 
 
-          <Route path="/" element={<Navigate to="/" />} />
+          <Route path="/" element={<Navigate to="/Heroes" />} />
 
         </Routes>
       </div>
