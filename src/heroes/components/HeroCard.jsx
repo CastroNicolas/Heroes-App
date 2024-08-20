@@ -12,7 +12,7 @@ export const HeroCard = ({
     first_appearance,
     characters
 }) => {
-    const heroImageUrl = `https://castronicolas.github.io/Heroes-App/assets/heroes/${id}.jpg`;
+    const heroImageUrl = `https://castronicolas.github.io/Heroes-App/heroes/${id}.jpg`;
 
     return (
         <div className="col">
