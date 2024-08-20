@@ -1,0 +1,21 @@
+.card-img-container {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.btn-primary {
+  border-radius: 4px;
+  font-size: 0.875rem;
+}

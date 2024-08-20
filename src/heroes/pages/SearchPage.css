@@ -1,0 +1,9 @@
+.search-form .form-control {
+  background-color: #343a40;
+  color: #ffffff;
+  border: 1px solid #495057;
+}
+
+.search-form .form-control::placeholder {
+  color: #ced4da;
+}
