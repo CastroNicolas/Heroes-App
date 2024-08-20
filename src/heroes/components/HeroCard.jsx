@@ -12,8 +12,8 @@ export const HeroCard = ({
     first_appearance,
     characters
 }) => {
-    const heroImageUrl = `/assets/heroes/${id}.jpg`;
-
+    const heroImageUrl = `https://castronicolas.github.io/Heroes-App/assets/heroes/${id}.jpg`;
+    console.log(heroImageUrl)
     return (
         <div className="col">
             <div className="card shadow-sm border-light h-100">
